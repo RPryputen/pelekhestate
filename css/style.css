@@ -2511,6 +2511,7 @@ body::after {
 }
 
 .our-requirements__body {
+  overflow: hidden;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: auto;
@@ -2522,9 +2523,9 @@ body::after {
 .our-requirements__image-ibg {
   padding-bottom: 100%;
   opacity: 0;
-  -webkit-transform: translate(0, 30%);
-      -ms-transform: translate(0, 30%);
-          transform: translate(0, 30%);
+  -webkit-transform: translate(0, 20%);
+      -ms-transform: translate(0, 20%);
+          transform: translate(0, 20%);
 }
 
 .our-requirements__image-ibg img {
@@ -2532,9 +2533,9 @@ body::after {
 }
 
 .our-requirements__content {
-  -webkit-transform: translate(0, 30%);
-      -ms-transform: translate(0, 30%);
-          transform: translate(0, 30%);
+  -webkit-transform: translate(0, 20%);
+      -ms-transform: translate(0, 20%);
+          transform: translate(0, 20%);
   opacity: 0;
 }
 
